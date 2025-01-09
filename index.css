@@ -1,15 +1,27 @@
 @import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
 
-@-webkit-keyframes throb{
-  0%{
+@-webkit-keyframes throb {
+  0% {
     -webkit-transform: scale(1);
-	}
-  35%{
-	  -webkit-transform: scale(1.2);
-	}
-	85%{
-	  -webkit-transform: scale(1);
-	}		
+  }
+  35% {
+    -webkit-transform: scale(1.2);
+  }
+  85% {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes throb {
+  0% {
+    transform: scale(1);
+  }
+  35% {
+    transform: scale(1.2);
+  }
+  85% {
+    transform: scale(1);
+  }
 }
 
 html {
